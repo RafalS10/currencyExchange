@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator walutowy1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="kantor.css" rel="stylesheet">
+    <link href="container.css" rel="stylesheet">
+    <link href="kantor1.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <script defer src="kantor.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">
+                    Kalkulator walutowy
+                </legend>
+                <p>
+                    <label>
+                        <span class="form__lebel">
+                            Jaką walute chcesz kupić:</span>
+                        <select class="js-currency form__field" name="waluta">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="CHF">CHF</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                        </span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__lebel">
+                            Ile chcesz wydać:</span> <input class="js-amount form__field" type="number"
+                            min="1" step="any">
+
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                <button class="js-submit form__button">Przelicz!</button>
+
+            </p>
+            <p class="form__paragraph">podsumowanie:<strong class="js-result">N/A</strong>
+            </p>
+        </form>
+    </div>
+
+   
+
+
+</body>
