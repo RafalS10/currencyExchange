@@ -46,3 +46,9 @@
     border-radius: 5px;
     padding: 10px;
 }
+.form__paragraph {
+    background-color: rgb(238, 231, 231);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
