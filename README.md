@@ -16,5 +16,5 @@ This calculator can help You with counting with four most popular currency witch
 
 I wrote this page using html,css,js. I was as well using BEM covention.
 
-![sample](https://github.com/RafalS10/currencyexchange/blob/main/images/IMG_0637.jpg)
+![sample](https://github.com/RafalS10/currencyexchange/blob/main/images/currencyexchange.jpg)
 
